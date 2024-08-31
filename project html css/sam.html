@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .left-header{
+
+
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 30px;
+    left: 170px;
+    font-size: smaller;
+          
+}
+.left-header .dropdown a{
+    color: black;
+}
+.left-header a{
+    color: black;
+}
+
+
+
+
+.dropdown a{
+    font-weight: bold;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color:white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    min-width: 200px;
+    z-index: 1;
+}
+.dropdown-content a {
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.dropdown-content a:hover {
+    background-color: #c4cba3;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="left-header">
+        <div class="dropdown">
+            <a href="#" >SHOP &#x25BC;</a> <!-- Dropdown arrow -->
+            <div class="dropdown-content">
+                <a href="#">Furniture</a>
+                        <div class="furniture-items">
+                            <a href="#">hello</a>
+                            <a href="#">hierarchy</a><a href=""></a><a href=""></a><a href=""></a><a href=""></a><a href=""></a>
+                        </div>
+                <a href="#">Bedding</a>
+                <a href="#">Lighting</a>
+                <a href="#">Pillow and Decor</a>
+                <a href="#">Wall Art and Mirror</a>
+                <a href="#">Table Top</a>
+                <a href="#">Glassware</a>
+            </div>
+        </div>
+        <a href="#">DESIGN IDEAS</a>
+        <a href="#">STORIES</a>
+        <a href="#">FAQS</a>
+        <a href="#">CONTACT US</a>
+        <a href="#">SALE</a>
+</nav>
+      
+</body>
+</html>
